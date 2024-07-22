@@ -1,0 +1,13 @@
+{
+  "theme": "Fluenc-Webapplication",
+  "encoding": "utf-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": false,
+  "offlineMode": true,
+  "thumbnailForBase64": false,
+  "documentTitle": "Fluenc Webapplication ExtentReports",
+  "reportName": "Fluenc-Webapplication Platform Web Application",
+  "timeStampFormat": "MMM dd, yyyy HH:mm:ss a",
+  "js": "",
+  "css": ""
+}

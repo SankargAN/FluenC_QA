@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-24T12:29:13 IST" name="Fluenc-Webapplication" finished-at="2024-06-24T12:29:41 IST" duration-ms="27429">
+    <groups>
+    </groups>
+    <test started-at="2024-06-24T12:29:13 IST" name="institution" finished-at="2024-06-24T12:29:41 IST" duration-ms="27429">
+      <class name="institution.institution_menu">
+        <test-method is-config="true" signature="implicity_Wait()[pri:0, instance:institution.institution_menu@723ca036]" started-at="2024-06-24T12:29:24 IST" name="implicity_Wait" finished-at="2024-06-24T12:29:24 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- implicity_Wait -->
+        <test-method signature="Institution_page()[pri:0, instance:institution.institution_menu@723ca036]" started-at="2024-06-24T12:29:24 IST" name="Institution_page" finished-at="2024-06-24T12:29:41 IST" duration-ms="16409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Institution_page -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:institution.institution_menu@723ca036]" started-at="2024-06-24T12:29:41 IST" name="checkStatus" finished-at="2024-06-24T12:29:41 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Institution_page status=SUCCESS method=institution_menu.Institution_page()[pri:0, instance:institution.institution_menu@723ca036] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void institution.institution_menu.Institution_page() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+      </class> <!-- institution.institution_menu -->
+      <class name="login.TC_001">
+        <test-method is-config="true" signature="extendsReportsInstantiation(org.testng.ITestContext)[pri:0, instance:login.TC_001@6f10d5b6]" started-at="2024-06-24T12:29:13 IST" name="extendsReportsInstantiation" finished-at="2024-06-24T12:29:13 IST" duration-ms="271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2a8f6e6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extendsReportsInstantiation -->
+        <test-method is-config="true" signature="browserInstantiation(java.lang.String,org.testng.ITestContext)[pri:0, instance:login.TC_001@6f10d5b6]" started-at="2024-06-24T12:29:13 IST" name="browserInstantiation" finished-at="2024-06-24T12:29:17 IST" duration-ms="3658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2a8f6e6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserInstantiation -->
+        <test-method is-config="true" signature="implicity_Wait()[pri:0, instance:login.TC_001@6f10d5b6]" started-at="2024-06-24T12:29:17 IST" name="implicity_Wait" finished-at="2024-06-24T12:29:17 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- implicity_Wait -->
+        <test-method signature="open_URL()[pri:1, instance:login.TC_001@6f10d5b6]" started-at="2024-06-24T12:29:17 IST" name="open_URL" finished-at="2024-06-24T12:29:20 IST" duration-ms="2621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_URL -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:login.TC_001@6f10d5b6]" started-at="2024-06-24T12:29:20 IST" name="checkStatus" finished-at="2024-06-24T12:29:20 IST" duration-ms="41" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=open_URL status=SUCCESS method=TC_001.open_URL()[pri:1, instance:login.TC_001@6f10d5b6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void login.TC_001.open_URL()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="implicity_Wait()[pri:0, instance:login.TC_001@6f10d5b6]" started-at="2024-06-24T12:29:20 IST" name="implicity_Wait" finished-at="2024-06-24T12:29:20 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- implicity_Wait -->
+        <test-method signature="login()[pri:2, instance:login.TC_001@6f10d5b6]" started-at="2024-06-24T12:29:20 IST" name="login" finished-at="2024-06-24T12:29:24 IST" duration-ms="4631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="checkStatus(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:login.TC_001@6f10d5b6]" started-at="2024-06-24T12:29:24 IST" name="checkStatus" finished-at="2024-06-24T12:29:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TC_001.login()[pri:2, instance:login.TC_001@6f10d5b6] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public static void login.TC_001.login() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:login.TC_001@6f10d5b6]" started-at="2024-06-24T12:29:41 IST" name="closeBrowser" finished-at="2024-06-24T12:29:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="generateExtentReports(org.testng.ITestContext)[pri:0, instance:login.TC_001@6f10d5b6]" started-at="2024-06-24T12:29:41 IST" name="generateExtentReports" finished-at="2024-06-24T12:29:41 IST" duration-ms="364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2a8f6e6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReports -->
+      </class> <!-- login.TC_001 -->
+    </test> <!-- institution -->
+  </suite> <!-- Fluenc-Webapplication -->
+</testng-results>
